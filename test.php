@@ -18,7 +18,7 @@ if($response->num_rows > 0){        //there are records
         $email = $row['email'];
         $sexo = $row['sexo'];
         $nacimiento = $row['nacimiento'];
-
+        //!Hi esto es una prueba
         echo   "$id $username $password $edad $email $sexo $nacimiento <br/> ";
     }
 
